@@ -1,0 +1,194 @@
+body{
+  background-repeat: no-repeat;
+  background: url(./warehouse.png) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+/* navbar */
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            /* align-items: center; */
+            text-align: center;
+            padding: 5px;
+            background-color: #fff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            align-items: center;
+            height: 10vh;
+
+           .navlogo{
+            img{
+                width:100%;
+            }
+           }
+        }
+
+        .navbar button {
+            padding: 10px;
+            background-color: #009688;
+            border: none;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 1.5em;
+        }
+
+        .navbar button a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .navbar button:hover {
+            background-color: #009688;
+            
+        }
+
+        .navlinks ul {
+            list-style-type: none;
+            display: flex;
+            gap: 20px;
+        }
+        
+        .navlinks ul li {
+            display: inline;
+        }
+        
+        .navlinks ul li a {
+            text-decoration: none;
+            color: #000;
+         font-size: 1em;
+            font-weight: bold;
+        }
+        
+        .navlinks ul li a:hover {
+            color: #007BFF;
+            text-decoration: underline;
+        }
+
+       
+
+                /* Background Image */
+                .top-fold {
+                  /* background: url('https://source.unsplash.com/1600x900/?warehouse') no-repeat center center; */
+                  /* background-size: cover; */
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  /* height: 100vh; */
+                  padding: 20px;
+                  width: 70%;
+                  margin: 0 auto;
+                }
+              
+                /* Content Box */
+                .content-box {
+                  background: #fff;
+                  padding: 30px;
+                  border-radius: 10px;
+                  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+                  /* max-width: 900px; */
+                  display: flex;
+                  gap: 20px;
+                }
+              
+                /* Left Side Content */
+                .left-content {
+                  flex: 1;
+                }
+              
+                .left-content h1 {
+                  font-size: 24px;
+                  font-weight: bold;
+                }
+              
+                .highlight {
+                  color: #009688;
+                }
+              
+                .features {
+                  list-style: none;
+                  padding: 0;
+                  display: flex;
+              
+                   align-items: center;
+                   gap: 10px;
+                }
+              
+                .features li {
+                 
+                 
+                  margin-bottom: 10px;
+                }
+              
+                .features img {
+                  width: 50%;
+                  /* height: 20px; */
+                }
+              
+                /* Form Box */
+                .form-box {
+                  background: #fff;
+                  padding: 20px;
+                  border-radius: 8px;
+                  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+                }
+              
+                .form-box input {
+                  /* width: 100%; */
+                  padding: 10px;
+                  margin: 5px 0;
+                  border: 1px solid #ccc;
+                  border-radius: 5px;
+                }
+              
+                .form-box button {
+                  background: #009688;
+                  color: #fff;
+                  border: none;
+                  padding: 10px;
+                  /* width: 100%; */
+                  cursor: pointer;
+                  border-radius: 5px;
+                }
+
+                .name-fields {
+                    display: flex;
+                    gap: 10px;
+                }
+
+                .checkbox-group {
+                    display: flex;
+                    flex-direction: column;
+                    margin: 10px 0;
+                }
+
+                .checkbox-group label {
+                    margin-bottom: 5px;
+                }
+
+                .form-box h4 {
+                    margin-top: 20px;
+                    font-size: 1.2em;
+                    color: #333;
+                }
+
+                .form-box button {
+                    display: block;
+                    margin: 20px auto;
+                    background: #009688;
+                    color: #fff;
+                    border: none;
+                    padding: 10px 20px;
+                    cursor: pointer;
+                    border-radius: 5px;
+                    font-size: 1em;
+                }
+              
+                /* Responsive Design */
+                @media (max-width: 768px) {
+                  .content-box {
+                    flex-direction: column;
+                  }
+                }
